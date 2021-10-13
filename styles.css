@@ -1,0 +1,51 @@
+
+.main {
+    text-align: center;
+    font-style: italic;
+}
+
+.cool {
+    color: crimson;
+}
+
+.container > p {
+    background-color: lightcyan;
+}
+
+.nice + p + p {
+    color: honeydew;
+}
+a:visited{
+    color:orange;
+}
+a:active {
+    color: pink;
+}
+
+a:hover {
+    color: brown;
+}
+
+.layout {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.layout > div {
+    height: 15rem;
+    width: 10rem;
+    /* margin: 1rem; */
+    background-color: teal;
+}
+
+.layout > div:nth-child(2){
+    background-color: tomato;
+}
+
+.layout > div:nth-child(3){
+    background-color: wheat;
+}
+
+.layout > div:nth-child(4){
+    background-color: yellow;
+}
